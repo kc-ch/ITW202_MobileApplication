@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">TODO_12</string>
+    <string name="donut_s">You ordered a Donut</string>
+    <string name="ice_s">You ordered ice Cream sandwich </string>
+    <string name="froyo_s">You ordered Froyo </string>
+</resources>
