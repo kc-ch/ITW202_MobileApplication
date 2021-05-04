@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">TODO_12</string>
+    <string name="donut_s">You ordered a Donut</string>
+    <string name="ice_s">You ordered ice Cream sandwich </string>
+    <string name="froyo_s">You ordered Froyo </string>
+    <string name="r1">Same day messenger service</string>
+    <string name="r2">Next day ground delivery</string>
+    <string name="r3">Pick Up</string>
+    <string-array name="item_list">
+        <item> Home</item>
+        <item> Work</item>
+        <item> Mobile</item>
+        <item> Other</item>
+    </string-array>
+    <string name="Donut_Order">You ordered Donut</string>
+    <string name="iceCream_Order">You ordered Ice Cream Sandwich</string>
+    <string name="Froyo_Order">You ordered Froyo</string>
+</resources>
