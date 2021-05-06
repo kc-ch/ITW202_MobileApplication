@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app = "http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="edu.gcit.todo_12.MainActivity">
+    <item
+        android:id="@+id/Overflow"
+        android:title="Order"
+        android:icon="@drawable/overflow"
+        app:showAsAction="ifRoom"
+        android:orderInCategory="40">
+
+        <menu>
+            <item
+                android:id="@+id/Order"
+                android:title="Order"
+                app:showAsAction="always" />
+            <item
+                android:title="Status"
+                app:showAsAction="always"/>
+            <item
+                android:title="Favourites"
+                app:showAsAction="always"/>
+            <item
+                android:id="@+id/contact"
+                android:title="contact"
+                app:showAsAction="always"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/c"
+        android:title="Contact"
+        android:icon="@drawable/contact"
+        app:showAsAction="always"
+        android:orderInCategory="30"/>
+
+    <item
+        android:id="@+id/O"
+        android:title="Order"
+        android:icon="@drawable/shopping"
+        app:showAsAction="always" />
+
+
+</menu>
