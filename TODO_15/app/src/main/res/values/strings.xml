@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TODO_15</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_label1">Top </string>
+    <string name="tab_label2">Latest </string>
+    <string name="tab_label3">Old </string>
+</resources>
