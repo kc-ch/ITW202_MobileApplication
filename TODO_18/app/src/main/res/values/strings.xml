@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">TODO_18</string>
+    <string-array name="sport_titles">
+        <item>Baseball</item>
+        <item>Badminton</item>
+        <item>Basketball</item>
+        <item>Soccer</item>
+        <item>Golf</item>
+        <item>Swimming</item>
+    </string-array>
+    <string-array name="sport_info">
+        <item>Here is Baseball news</item>
+        <item>Here is Badminton news</item>
+        <item>Here is Basketball news</item>
+        <item>Here is Soccer news</item>
+        <item>Here is Golf news</item>
+        <item>Here is Swimming news</item>
+    </string-array>
+
+    <array name="sport_images">
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_badminton</item>
+        <item>@drawable/img_baseball</item>
+        <item>@drawable/img_soccer</item>
+        <item>@drawable/img_golf</item>
+        <item>@drawable/img_swimming</item>
+    </array>
+</resources>
