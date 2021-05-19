@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\Kezang Namgay\\Desktop\\ITW202_MobileApplication\\TODO_19\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rUS\\values-en-rUS.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Kezang Namgay\\Desktop\\ITW202_MobileApplication\\TODO_19\\app\\src\\main\\res\\values-en-rUS\\strings.xml",
+                    "from": {
+                        "startLines": "35,4,19,2",
+                        "startColumns": "8,8,8,8",
+                        "startOffsets": "1195,109,547,59",
+                        "endLines": "50,17,33,2",
+                        "endColumns": "16,23,23,48",
+                        "endOffsets": "1764,537,1185,99"
+                    },
+                    "to": {
+                        "startLines": "2,18,32,47",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,629,1062,1705",
+                        "endLines": "17,31,46,47",
+                        "endColumns": "16,23,23,44",
+                        "endOffsets": "624,1057,1700,1745"
+                    }
+                }
+            ]
+        }
+    ]
+}

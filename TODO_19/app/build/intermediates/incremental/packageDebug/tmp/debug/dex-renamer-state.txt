@@ -1,0 +1,4 @@
+#Wed May 19 19:46:11 BDT 2021
+base.0=C\:\\Users\\Kezang Namgay\\Desktop\\ITW202_MobileApplication\\TODO_19\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
