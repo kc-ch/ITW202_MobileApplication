@@ -27,7 +27,23 @@ import static org.junit.Assert.*;
  */
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
+    @Rule
+    public ActivityScenarioRule mActivityRule = new ActivityScenarioRule<>(MainActivity.class);
 
+    @Test
+    public void activityLaunch(){
+        onView(withId(R.id.button_main)).perform(click());
+        onView(withId(R.id.text_header)).check(matches(isDisplayed()));
+        onView(withId(R.id.button_second)).perform(click());
+        onView(withId(R.id.text_header_reply)).check(matches(isDisplayed()));
+
+    }
+    @Test
+    public void textInputOutput(){
+        onView(withId(R.id.editText_main)).perform(typeText("Hello, welcome"));
+        onView(withId(R.id.button_main)).perform(click());
+        onView(withId(R.id.text_message)).check(matches(withText("Hello, welcome")));
+    }
     @Test
     public void useAppContext() {
         // Context of the app under test.
