@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         mColor = ContextCompat.getColor(this,
                 R.color.default_background);
 
-        mPreferences = getSharedPreferences(sharedPrefFile, MODE_PRIVATE);
+        mPreferences = getSharedPreferences(sharedPrefFile, MODE_PRIVATE);//fore securing files
 
         // Restore preferences
         mCount = mPreferences.getInt(COUNT_KEY, 0);
@@ -81,8 +81,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-
+        //to edit
         SharedPreferences.Editor preferencesEditor = mPreferences.edit();
+        //inserted key value pair
         preferencesEditor.putInt(COUNT_KEY, mCount);
         preferencesEditor.putInt(COLOR_KEY, mColor);
         preferencesEditor.apply();
